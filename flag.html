@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vlajka České republiky</title>
+  <style>
+    .flag {
+      width: 900px;
+      height: 600px;
+      position: relative;
+    }
+
+    .flag > div {
+      width: 100%;
+      height: 300px;
+    }
+
+    .flag > .white {
+      background-color: white;
+      position: absolute;
+      top: 0;
+      border: black, 10px 
+    }
+
+    .flag > .red {
+      background-color: #CE1126; /* Červená barva vlajky */
+      position: absolute;
+      bottom: 0;
+    }
+
+    .flag > .blue {
+      width: 0;
+      height: 0;
+      border-top: 300px solid transparent;
+      border-bottom: 300px solid transparent;
+      border-left: 450px solid #1145D2; /* Modrá barva vlajky */
+      position: absolute;
+    }
+
+    p {
+      font-size: 3rem;
+      color: black;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <div class="white">
+    </div>
+    <div class="red">
+    </div>
+    <div class="blue">
+    </div>
+  </div>
+</body>
+
+</html>
